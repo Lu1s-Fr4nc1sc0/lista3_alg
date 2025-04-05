@@ -3,7 +3,8 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-
+/*observação: em windows a libmath é importada automaticamente pelo compilador,
+mas ao compilar e gnu/linux --debian based, a biblioteca tem que ser incluida com a flag de compilação -lm */
 
 const double PI =3.14; //constante PI com duas casas decimais
 float r, h,p; // inputs do usúario pra raio altura e preço
